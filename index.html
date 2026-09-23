@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Ezequiel Córdova Vides — Portafolio Frontend</title>
+  
+  <!-- Tipografías de Google Fonts: Space Grotesk e Inter -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"> -->
+
+  <!-- Hoja de estilos externa (Mobile First) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO / HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="prompt">cordovavides@gmail.com:~$ whoami</p>
+      <h1>David Ezequiel Córdova Vides</h1>
+      <p>Desarrollador Frontend Jr. — construyo interfaces claras, rápidas y que funcionan igual de bien en un teléfono que en una pantalla grande.</p>
+      <p>San Salvador, El Salvador · Disponible para trabajo remoto o híbrido</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-outline" href="mailto:cordovavides@gmail.com">Escribirme</a>
+      </div>
+      <div class="hero-social">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="mailto:cordovavides@gmail.com">cordovavides@gmail.com</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN: SOBRE MÍ -->
+  <section class="about" id="sobre-mi">
+    <div class="container about-inner">
+      <img class="about-photo" src="images/Foto.jpg" alt="Foto de perfil de David Córdova">
+      <div class="about-text">
+        <h2>Sobre mí</h2>
+        <p>Vengo del diseño gráfico y el marketing digital, así que entiendo tanto el "cómo se ve" como el "por qué se ve así". Después de años maquetando en herramientas de diseño, decidí aprender a construirlo yo mismo en código.</p>
+        <p>Hoy estoy terminando mi formación como Web Developer Frontend, enfocado en HTML semántico, CSS moderno (Flexbox y Grid) y buenas prácticas de accesibilidad. Me interesa el detalle: espaciados consistentes, contraste correcto, y que una página se sienta tan cuidada en el código como en la pantalla.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: HABILIDADES -->
+  <section class="skills" id="habilidades">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Lenguajes y herramientas</h3>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Git &amp; GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">JavaScript (en formación)</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Diseño y maquetado</h3>
+          <div class="tags">
+            <span class="tag">Flexbox</span>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Diseño responsivo</span>
+            <span class="tag">De Figma a código</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Habilidades blandas</h3>
+          <div class="tags">
+            <span class="tag">Atención al detalle</span>
+            <span class="tag">Comunicación clara</span>
+            <span class="tag">Trabajo en equipo</span>
+            <span class="tag">Aprendizaje autónomo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: PROYECTOS -->
+  <section class="projects" id="proyectos">
+    <div class="container">
+      <div class="section-head">
+        <h2>Proyectos</h2>
+        <p class="section-sub">Prácticas del bootcamp, ya subidas y navegables</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portafolio personal</h3>
+          <p>Este mismo sitio: estructura semántica en HTML5 y layout con Flexbox y Grid, sin frameworks.</p>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Grid</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Ver código</a>
+            <a href="#" target="_blank">Ver demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Landing page — cafetería ficticia</h3>
+          <p>Réplica de una landing real a partir de una captura, cuidando jerarquía visual y espaciado con Emmet + CSS puro.</p>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Emmet</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Ver código</a>
+            <a href="#" target="_blank">Ver demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Galería responsiva de productos</h3>
+          <p>Grilla de tarjetas con <code>repeat(auto-fit, minmax())</code> que se reacomoda sola entre celular y escritorio.</p>
+          <div class="tags">
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">Ver código</a>
+            <a href="#" target="_blank">Ver demo</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: TRAYECTORIA -->
+  <section class="journey" id="camino">
+    <div class="container">
+      <h2>Mi camino</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="step">Módulo 1</span>
+          <h3>Fundamentos: HTML, CSS y Bootstrap</h3>
+          <p>Estructura semántica, Flexbox, Grid y mi primera landing page responsiva.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="step">Módulo 2 — en curso</span>
+          <h3>Fundamentos de JavaScript</h3>
+          <p>Lógica, funciones, arrays y objetos para empezar a darle comportamiento a mis páginas.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="step">Módulo 3</span>
+          <h3>Git, GitHub y JavaScript avanzado</h3>
+          <p>Control de versiones en equipo, manipulación del DOM y consumo de APIs reales.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="step">Módulo 4</span>
+          <h3>React</h3>
+          <p>Componentes, estado y una aplicación final para cerrar el bootcamp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN: CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container contact-inner">
+      <div>
+        <h2>¿Buscas sumar a alguien a tu equipo de frontend?</h2>
+        <p>Estoy activamente en búsqueda de mi primera oportunidad como desarrollador.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:cordovavides@gmail.com">cordovavides@gmail.com</a>
+        <a href="#" target="_blank">linkedin.com/in/davidcordovavides</a>
+        <a href="#" target="_blank">github.com/cordovavides</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">&copy; 2026 David Ezequiel Córdova Vides — Hecho con HTML5 y CSS3, sin frameworks</footer>
+
+</body>
+</html>
